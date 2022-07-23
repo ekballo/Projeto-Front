@@ -56,8 +56,19 @@ section.main {
     padding-top: 100px;
 }
 
-.mockup {
-    font-size: 30px;
+.mockup h1 {
+    font-size: 50px;
 }
 
+.mockup img {
+    max-width: 100%;
+}
+
+.section.marcas {
+    padding: 100px 0;
+}
+
+.section.marcas img {
+   
+}
 
