@@ -3,49 +3,81 @@
     <head>
         <title>Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <style>
+        
+        </style>
     </head>
     <body>
       
-    <div class="p-5 bg-primary text-white text-center">
+    <div class="p-5 bg-secondary text-white text-center">
         <h1>Meu Primeiro Portfolio</h1>
         <p>Fique de olho no proximos projetos!</p>	
     </div>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <div class="container-fluid">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Meu Projetos</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">Ver todos</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="container mt-3">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="bi bi-house"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tecnologias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Sobre</a>
+          </li>
+        </ul>
+      </div>
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col-sm-4">
-                <div class="fakeimg"><img src="/Portfolio/images/jefferson.jpg" class="rounded-circle" alt="" width="180" height="160"></div>
-                <h2>Jefferson Garcia</h2>
+            <div class="col-sm-3">
+                <div class="fakeimg"><img src="/images/jefferson.jpg" class="rounded-circle" alt="" width="180" height="160"></div>
+                <h3>Jefferson Garcia</h3>
                 <p>Full Stack Developer</p>
-                <h3 class="mt-4">Tecnologias</h3>
-                <ul class="navbar nav">
-                    <li class="nav-item">HMTL</li>
-                    <li class="nav-item">CSS3</li>
-                    <li class="nav-item">JavaScript</li>
-                    <li class="nav-item">bootstrap</li>
-                    <li class="nav-item">Sass</li>
-                    <li class="nav-item">ReactJS</li>
-                    <li class="nav-item">VueJS</li>
-                    <li class="nav-item">React Native</li>
-                    <li class="nav-item">Java</li>
-                    <li class="nav-item">Spring</li>
-                    <li class="nav-item">Python</li>
-                    <li class="nav-item">Django</li>
+
+                <h3 class="mt-3">Tecnologias</h3>
+                <button type="button" class="btn btn-outline-secondary">HTML</button>
+                <button type="button" class="btn btn-outline-secondary">CSS3</button>
+                <button type="button" class="btn btn-outline-secondary">JavaScript</button>
+                <button type="button" class="btn btn-outline-secondary">Github</button>
+                <button type="button" class="btn btn-outline-secondary">ReactJS</button>
+                <button type="button" class="btn btn-outline-secondary">NodeJS</button>
+                <button type="button" class="btn btn-outline-secondary">Python</button>
+                <button type="button" class="btn btn-outline-secondary">Django</button>
+                <button type="button" class="btn btn-outline-secondary">Linux</button>
+                
+                
+                <h3>Contato</h3>
+                <ul class="">
+                    <li><i class="nav-item" class="bi bi-geo-alt-fill">São Paulo</i></li>
+                    <li><i class="nav-item" class="bi bi-github">Github</i></li>
                 </ul>
+            
             </div>
+
+            <div class="col-sm-8">
+                <h2>Recente</h2>
+                <h5>description, Set 1, 2022</h5>
+                <div class="fakeimg"><img src="./images/Captura.png" class="rounded" alt="" width="600" height="360"></div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          
+                <h2 class="mt-5">Last Post</h2>
+                <h5>Title description, Ago 2, 2022</h5>
+                <div class="fakeimg"><img src="./images/Lading Page.png" alt="" width="600" height="360"></div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </div>
+            </div>
+          </div>  
         </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-secondary text-white text-center">
+        <p>Footer</p>
     </div>
     </body>
 </html>
